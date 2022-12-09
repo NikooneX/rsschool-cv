@@ -1,8 +1,7 @@
 # **_Nikolai Khmelnitskiy_**
 
-Junior Frontend Developer. Engineer mechanic and control systems
-
 ![Foto](/rsschool-cv/image/Me150.jpg)
+**Junior Frontend Developer**<br> Engineer mechanic and control systems
 
 ---
 
@@ -14,6 +13,15 @@ Junior Frontend Developer. Engineer mechanic and control systems
 **Email:** niko.xme@gmail.com<br>
 **[Linkedin](https://www.linkedin.com/in/nikolai-khmelnitski-7a567a235/)**<br>
 **[GitHub](https://github.com/NikooneX)**<br>
+
+---
+
+# **ABOUT MYSELF**
+
+I have worked as an engineer for the last 17 years. During this time, I went from an ordinary mechanical engineer to a co-founder of my own company. Thanks to the craving for knowledge, I thoroughly understood how complex gas and diesel generator sets work. I learned how to repair them, diagnostics them, and later performed installation supervision and commissioning of new equipment [Caterpillar](https://www.youtube.com/watch?v=pwzOxDD730c).<br>
+For the last 4 years I have been working in my own company. We manufactured, installed and commissioned [control systems](https://www.youtube.com/watch?v=iGLluRhZfn4) for gas and diesel generator sets. As I worked, I increasingly wanted to learn how computer programs are created and run the "iron" (hardware).<br>
+I am currently studying IT. While studying Python, I liked to solve varying complexity problems with the help of logic and knowledge of syntax. Now studying the front-end, I like to see the result of my work.<br>
+I know that my ability to learn and technical mind will help me become a professional developer.
 
 ---
 
@@ -98,7 +106,7 @@ _Training:_ G3500 C&E Electronic Engine / MDLC G3500 Lean Burn Engines
 _Name:_ Belarusian National Technical University (Belarus, Minsk), Automotive Faculty (2003 – 2009)<br>
 _Specialty:_ Engineer-Mechanical
 
-_Name:_ Zhodino professional lyceum (Belarus 2000-03)<br>
+_Name:_ Zhodino professional lyceum (Belarus 2000-2003)<br>
 _Specialty:_ Car mechanic, category B and C driver
 
 ---
@@ -107,7 +115,7 @@ _Specialty:_ Car mechanic, category B and C driver
 
 Goal oriented | Problem-solving
 
-Thinking through first principles
+| Thinking through first principles |
 
 Troubleshooting | Results-driven
 
