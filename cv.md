@@ -1,7 +1,8 @@
 # **_Nikolai Khmelnitskiy_**
 
+**Junior Frontend Developer**
 ![Foto](/rsschool-cv/image/Me150.jpg)
-**Junior Frontend Developer**<br> Engineer mechanic and control systems
+Engineer mechanic and control systems
 
 ---
 
@@ -18,9 +19,12 @@
 
 # **ABOUT MYSELF**
 
-I have worked as an engineer for the last 17 years. During this time, I went from an ordinary mechanical engineer to a co-founder of my own company. Thanks to the craving for knowledge, I thoroughly understood how complex gas and diesel generator sets work. I learned how to repair them, diagnostics them, and later performed installation supervision and commissioning of new equipment [Caterpillar](https://www.youtube.com/watch?v=pwzOxDD730c).<br>
-For the last 4 years I have been working in my own company. We manufactured, installed and commissioned [control systems](https://www.youtube.com/watch?v=iGLluRhZfn4) for gas and diesel generator sets. As I worked, I increasingly wanted to learn how computer programs are created and run the "iron" (hardware).<br>
-I am currently studying IT. While studying Python, I liked to solve varying complexity problems with the help of logic and knowledge of syntax. Now studying the front-end, I like to see the result of my work.<br>
+I have worked as an engineer for the last 17 years. During this time, I went from an ordinary mechanical engineer to a co-founder of my own company. Thanks to the craving for knowledge, I thoroughly understood how complex gas and diesel generator sets work. I learned how to repair them, diagnostics them, and later performed installation supervision and commissioning of new equipment [Caterpillar](https://www.youtube.com/watch?v=pwzOxDD730c)
+
+For the last 4 years I have been working in my own company. We manufactured, installed and commissioned [control systems](https://www.youtube.com/watch?v=iGLluRhZfn4) for gas and diesel generator sets. As I worked, I increasingly wanted to learn how computer programs are created and run the "iron" (hardware)
+
+I am currently studying IT. While studying Python, I liked to solve varying complexity problems with the help of logic and knowledge of syntax. Now studying the front-end, I like to see the result of my work
+
 I know that my ability to learn and technical mind will help me become a professional developer.
 
 ---
@@ -65,6 +69,75 @@ Activities _(Apr-2005 - Jan-2011 / Minsk, Belarus)_
 | :----------: | :-----: | :---------: |
 |  **Python**  |         | **GitHub**  |
 | **Markdown** | **Git** | **VS Code** |
+
+---
+
+# **CODE EXAMPLE**
+
+1. На вход программе подается натуральное число nn, затем nn строк, затем число kk — количество поисковых запросов, затем kk строк — поисковые запросы. Напишите программу, которая выводит все введенные строки, в которых встречаются все поисковые запросы
+
+```
+d = int(input())
+s1 = []
+for i in range(d):
+    s1.append(input())
+k = int(input())
+s2 = []
+s3 =[]
+for j in range(k):
+    s2.append(input())
+for i in s1:
+    count = 0
+    for j in s2:
+        if j.lower() in i.lower():
+            count += 1
+    if count == len(s2):
+        s3.append(i)
+print(*s3, sep='\n')
+```
+
+2. На вход программе подается натуральное число nn, а затем nn различных натуральных чисел, каждое на отдельной строке. Напишите программу, которая выводит наибольшее и второе наибольшее число последовательности
+
+```
+n = int(input())
+large = -1
+prelarge = -2
+for i in range(n):
+    num = int(input())
+    if num > large:
+        prelarge = large
+        large = num
+    elif num < large and num > prelarge:
+        prelarge = num
+print(large)
+print(prelarge)
+```
+
+3. My first CSS)))
+
+```
+body {
+    max-width: 70%;
+    margin: auto;
+}
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1.5em;
+}
+h1 {
+    font-size: 32px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+figcaption {
+    font-style: italic;
+}
+figure {
+    float: right;
+    clear: right;
+}
+```
 
 ---
 
