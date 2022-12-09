@@ -1,19 +1,11 @@
-<table>
-  <tr>
-   <td><strong>Nikolai Khmelnitskiy</strong>
-<p>
-Engineer mechanic and control systems. Technical director
-<p>
-Born on 01.06.1985
-<p>
-Lithuania, Vilnius
-<p>
-Native Russian. English A2→B1
-<p>
-Higher technical education - mechanical engineer
-<p>
-+370 676 156 29 (Lithuania) Telegram, Whatsapp, Viber
-<p>
+# Nikolai Khmelnitskiy
+Junior Frontend Developer. Engineer mechanic and control systems ![Foto](/rsschool-cv/image/Me150.jpg) 
+
+Born on 01.06.1985<br>
+Lithuania, Vilnius<br>
+Native Russian. English A2→B1<br>
+Higher technical education - mechanical engineer<br>
++370 676 156 29 (Lithuania) Telegram, Whatsapp, Viber<br>
  
    </td>
    <td>
