@@ -1,7 +1,7 @@
 # **_Nikolai Khmelnitskiy_**
 
 **Junior Frontend Developer**
-![Foto](/rsschool-cv/image/Me150.jpg)
+![Foto](/rsschool-cv/assets/img/Me150.jpg)
 Engineer mechanic and control systems
 
 ---
