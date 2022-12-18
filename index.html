@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <img src="Me150.jpg" alt="my photo" width="150">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#competencies" class="nav-link">Competencies</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="profile">
+          <h1 class="section-title">Nikolai Khmelnitski</h1>
+          <h3>Junior Frontend Developer</h3>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <p>Site: Lithuania, Vilnius</p>
+          <p>Tel.: +370 676 156 29</p>
+          <p>Github: NikooneX</p>
+          <p>Email: niko.xme@gmail.com</p>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I have worked as an engineer for the last 17 years. During this
+            time, I went from an ordinary mechanical engineer to a co-founder of
+            my own company. Thanks to the craving for knowledge, I thoroughly
+            understood how complex gas and diesel generator sets work. I learned
+            how to repair them, diagnostics them, and later performed
+            installation supervision and commissioning of new equipment
+            <a href="https://www.youtube.com/watch?v=pwzOxDD730c"
+              >Caterpillar</a
+            >
+          </p>
+          <p>
+            For the last 4 years I have been working in my own company. We
+            manufactured, installed and commissioned
+            <a href="https://www.youtube.com/watch?v=iGLluRhZfn4"
+              >control systems</a
+            >
+            for gas and diesel generator sets. As I worked, I increasingly
+            wanted to learn how computer programs are created and run the "iron"
+          </p>
+          <p>
+            I am currently studying IT. While studying Python, I liked to solve
+            varying complexity problems with the help of logic and knowledge of
+            syntax. Now studying the front-end, I like to see the result of my
+            work
+          </p>
+          <p>
+            I know that my ability to learn and technical mind will help me
+            become a professional developer
+          </p>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <p>
+            The input to the program is a natural number N, and then N different
+            natural numbers, each on a separate line. Write a program that
+            prints the largest and second largest number in a sequence
+          </p>
+          <p>
+            <code>
+              <pre>
+            n = int(input())
+            large = -1
+            prelarge = -2
+            for i in range(n):
+                num = int(input())
+                if num > large:
+                    prelarge = large
+                    large = num
+                elif num < large and num > prelarge:
+                    prelarge = num
+            print(large)
+            print(prelarge)
+          </pre
+              >
+            </code>
+          </p>
+        </section>
+        <section class="section" id="work">
+          <h2 class="section-title">Work</h2>
+          <h3 class="section-subtitle">Co-founder LLC Energofix</h3>
+          <p class="subtitle-item">
+            Activities (Dec/2018 - Till now / Minsk, Belarus)
+          </p>
+          <ul>
+            <li>
+              Manufacturing, upgrade, installation, commissioning of control
+              cabinets for diesel and gas generator sets (CAT, MWM, Perkins...)
+            </li>
+            <li>Repair, maintenance, commissioning, diagnostics gen sets</li>
+            <li>
+              Manufacture, installation and commissioning of the control
+              cabinets for 2 diesel gen sets CAT C18 (island mode), CAT 3516B
+              (island mode TIER III). Performs the functions of load sharing,
+              protection, SCADA
+            </li>
+            <li>
+              Retrofit the control system of 3 CAT G3520C gas gen sets and 2 MWM
+              CG132V12 with the replacement of controllers
+            </li>
+          </ul>
+          <h3 class="section-subtitle">
+            Leading mechanical engineer, head of gas engines service department
+            LLC Zeppelin Belarus
+          </h3>
+          <p class="subtitle-item">
+            Activities (Mar/2012 – Dec/2018 / Minsk, Belarus)
+          </p>
+          <ul>
+            <li>
+              Organization of work of mechanical engineers. Work with clients.
+              Work with the CAT support service. Participation in technical
+              seminars for dealers. Investigation of difficult cases of
+              breakdowns/diagnostics of gen sets. Conducting trainings for
+              clients. Installation, supervision, commissioning, repair,
+              maintenance, diagnostics of diesel and gas gen sets (Caterpillar
+              G3500 C&E, 3500; MWM CG170/132; Perkins) with various control
+              systems (TemEvo, Terberg, ComAp, Woodward, EMCP, Datakom, Deif...)
+            </li>
+          </ul>
+          <h3 class="section-subtitle">
+            Mechanical engineer LLC New Technologies
+          </h3>
+          <p class="subtitle-item">
+            Activities (Jan-2011 - Mar-2012 / Minsk, Belarus)
+          </p>
+          <ul>
+            <li>
+              Repair, maintenance, diagnostics Horizontal Directional Drilling
+              the Vermeer and equipment. Purchase spare parts
+            </li>
+          </ul>
+          <h3 class="section-subtitle">
+            Equipment repair master Republican Unitary Enterprise Minsk Tractor
+            Works
+          </h3>
+          <p class="subtitle-item">
+            Activities (Apr-2005 - Jan-2011 / Minsk, Belarus)
+          </p>
+          <ul>
+            <li>
+              Organization of the work of locksmiths repairmen of the heat
+              treatment shop
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <p class="subtitle-courses">RS School (2022, in progress)</p>
+          <ul class="courses-items">
+            <li>Курс «JavaScript/Front-end»</li>
+          </ul>
+          <p class="subtitle-courses">School BEEGEEK (2022)</p>
+          <ul class="courses-items">
+            <li>Вебразработка для начинающих HTML/CSS</li>
+          </ul>
+          <p class="subtitle-courses">EPAM Learn Digital Platform (2022)</p>
+          <ul class="courses-items">
+            <li>IT Fundamentals</li>
+          </ul>
+          <p class="subtitle-courses">School BEEGEEK (2022)</p>
+          <ul class="courses-items">
+            <li>"Поколение Python": курс для начинающих</li>
+          </ul>
+          <p class="subtitle-courses">
+            ComAp training center, Czech Republic (2019)
+          </p>
+          <ul class="courses-items">
+            <li>Advanced Plus (engines control system)</li>
+          </ul>
+          <p class="subtitle-courses">
+            Marelli Generator training center, Italy (2017)
+          </p>
+          <ul class="courses-items">
+            <li>
+              Marelli Generator Functions, Analog and Digital AVR Setting and
+              Troubleshooting
+            </li>
+          </ul>
+          <p class="subtitle-courses">
+            Terberg training center, the Netherlands (2017)
+          </p>
+          <ul class="courses-items">
+            <li>Industrial Control System for Gas engines</li>
+          </ul>
+          <p class="subtitle-courses">ZEPPELIN Rusland (2015)</p>
+          <ul class="courses-items">
+            <li>Expert category C (Caterpillar)</li>
+          </ul>
+          <p class="subtitle-courses">
+            Caterpillar Energy Solutions, Germany (2014)
+          </p>
+          <ul class="courses-items">
+            <li>
+              Total Electronic Management – TEM EVO and Gas Engines – Basics and
+              Periphery Components
+            </li>
+          </ul>
+          <p class="subtitle-courses">Caterpillar, Moscow (2013)</p>
+          <ul class="courses-items">
+            <li>Warranty Training</li>
+          </ul>
+          <p class="subtitle-courses">
+            Caterpillar Malaga Demonstration and Learning Center (2013)
+          </p>
+          <ul class="courses-items">
+            <li>G3500 C&E Electronic Engine / MDLC G3500 Lean Burn Engines</li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills-items">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Markdown</li>
+            <li>VS Code</li>
+            <li>Github</li>
+            <li>JS</li>
+          </ul>
+        </section>
+        <section class="section" id="competencies">
+          <h2 class="section-title">Competencies</h2>
+          <ul class="skills-items">
+            <li>Goal oriented</li>
+            <li>Problem-solving</li>
+            <li>Results-driven</li>
+            <li>Troubleshooting</li>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+            <li>Avid learner</li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>
+            Belarusian National Technical University (Belarus, Minsk),
+            Automotive Faculty (2003 – 2009), Engineer-Mechanical
+          </p>
+          <p>Zhodino professional lyceum (Belarus 2000-2003)</p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <p>Native Russian</p>
+          <p>English A2→B1</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-top">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="https://github.com/NikooneX"
+                >Github</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="footer-link-rs" href="https://rs.school/js/"
+                >.............</a
+              >
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/in/nikolai-khmelnitski-7a567a235/"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <h5 class="footer-bottom-h5">2022</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
