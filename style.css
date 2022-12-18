@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/Roboto-Light.ttf");
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background: #fefac9;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0 0;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 10px 20px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.skills-items {
+    list-style-type: square;
+}
+
+.courses-items {
+    list-style-type: circle;
+}
+
+.subtitle-courses {
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 12px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.nav-link {
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #7c9880;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #202173;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 50%;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-link {
+    padding: 0 12px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.footer-link {
+    transition: .3s;
+}
+
+.footer-item a {
+    color: #051d94;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.footer-item a:hover {
+    color: #fa1111;
+}
+
+.footer-link-rs {
+    background: url(https://rs.school/images/rs_school_js.svg);
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #051d94;
+}
