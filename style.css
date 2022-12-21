@@ -14,14 +14,26 @@ html {
 }
 
 body {
-    background: #fefac9;
+    background: #3b3b39;
     width: 1000px;
     margin: 0 auto;
-    padding: 50px 0 0;
+    padding: 50px 0 50px;
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.header {
+    background: #fcf49c;
+}
+
+.main {
+    background: #fcf7bf;
+}
+
+.footer {
+    background: #fcf7bf;
 }
 
 * {
@@ -35,6 +47,13 @@ body {
 .section-title {
     display: flex;
     justify-content: center;
+}
+
+.section-title-foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .footer-list {
