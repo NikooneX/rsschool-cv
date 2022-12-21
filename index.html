@@ -7,7 +7,6 @@
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
-    <img src="Me150.jpg" alt="my photo" width="150">
   </head>
   <body>
     <header class="header">
@@ -49,7 +48,8 @@
       <div class="container main-container">
         <section class="section" id="profile">
           <h1 class="section-title">Nikolai Khmelnitski</h1>
-          <h3>Junior Frontend Developer</h3>
+          <img class="section-title-foto" src="Me150.jpg" alt="my photo" width="150">
+          <p style="text-align: center;">Junior Frontend Developer</p>
         </section>
         <section class="section" id="contacts">
           <h2 class="section-title">Contacts</h2>
@@ -68,15 +68,13 @@
             how to repair them, diagnostics them, and later performed
             installation supervision and commissioning of new equipment
             <a href="https://www.youtube.com/watch?v=pwzOxDD730c"
-              >Caterpillar</a
-            >
+              >Caterpillar</a>
           </p>
           <p>
             For the last 4 years I have been working in my own company. We
             manufactured, installed and commissioned
             <a href="https://www.youtube.com/watch?v=iGLluRhZfn4"
-              >control systems</a
-            >
+              >control systems</a>
             for gas and diesel generator sets. As I worked, I increasingly
             wanted to learn how computer programs are created and run the "iron"
           </p>
@@ -98,25 +96,22 @@
             natural numbers, each on a separate line. Write a program that
             prints the largest and second largest number in a sequence
           </p>
-          <p>
-            <code>
-              <pre>
+          <pre>
+              <code>
             n = int(input())
             large = -1
             prelarge = -2
             for i in range(n):
                 num = int(input())
-                if num > large:
+                if num &gt; large:
                     prelarge = large
                     large = num
-                elif num < large and num > prelarge:
+                elif num &lt; large and num &gt; prelarge:
                     prelarge = num
             print(large)
             print(prelarge)
-          </pre
-              >
-            </code>
-          </p>
+              </code>
+          </pre>
         </section>
         <section class="section" id="work">
           <h2 class="section-title">Work</h2>
@@ -294,8 +289,7 @@
           <ul class="footer-list">
             <li class="footer-item">
               <a class="footer-link" href="https://github.com/NikooneX"
-                >Github</a
-              >
+                >Github</a>
             </li>
             <li class="footer-item">
               <a class="footer-link-rs" href="https://rs.school/js/"
@@ -306,13 +300,12 @@
               <a
                 class="footer-link"
                 href="https://www.linkedin.com/in/nikolai-khmelnitski-7a567a235/"
-                >Linkedin</a
-              >
+                >Linkedin</a>
             </li>
           </ul>
         </div>
         <div class="footer-bottom">
-          <h5 class="footer-bottom-h5">2022</h5>
+          <p class="footer-bottom-h5">2022</p>
         </div>
       </div>
     </footer>
