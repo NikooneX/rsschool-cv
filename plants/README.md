@@ -1,1 +1,1 @@
-https://NikooneX.github.io/rsschool-cv/
+rsschool-cv
