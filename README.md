@@ -1,1 +1,1 @@
-https://NikooneX.github.io/plants/
+https://NikooneX.github.io/rsschool-cv/
